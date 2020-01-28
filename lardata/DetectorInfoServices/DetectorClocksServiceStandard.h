@@ -100,5 +100,5 @@ namespace detinfo{
 
   };
 } //namespace detinfo
-DECLARE_ART_SERVICE_INTERFACE_IMPL(detinfo::DetectorClocksServiceStandard, detinfo::DetectorClocksService, LEGACY)
+DECLARE_ART_SERVICE_INTERFACE_IMPL(detinfo::DetectorClocksServiceStandard, detinfo::DetectorClocksService, SHARED)
 #endif // DETECTORCLOCKSSERVICESTANDARD_H

@@ -38,5 +38,5 @@ namespace detinfo{
 
     }; // class LArPropertiesServiceStandard
 } //namespace detinfo
-DECLARE_ART_SERVICE_INTERFACE_IMPL(detinfo::LArPropertiesServiceStandard, detinfo::LArPropertiesService, LEGACY)
+DECLARE_ART_SERVICE_INTERFACE_IMPL(detinfo::LArPropertiesServiceStandard, detinfo::LArPropertiesService, SHARED)
 #endif // LARPROPERTIESSERVICESTANDARD_H

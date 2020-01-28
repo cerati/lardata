@@ -29,5 +29,5 @@ namespace detinfo{
 
     }; // class DetectorClocksService
 } //namespace detinfo
-DECLARE_ART_SERVICE_INTERFACE(detinfo::DetectorClocksService, LEGACY)
+DECLARE_ART_SERVICE_INTERFACE(detinfo::DetectorClocksService, SHARED)
 #endif // DETECTORCLOCKSSERVICE_H

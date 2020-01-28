@@ -159,5 +159,5 @@ namespace util{
 
     }; // class DetectorPropertiesServiceArgoNeuT
 } //namespace util
-DECLARE_ART_SERVICE_INTERFACE_IMPL(util::DetectorPropertiesServiceArgoNeuT, detinfo::DetectorPropertiesService, LEGACY)
+DECLARE_ART_SERVICE_INTERFACE_IMPL(util::DetectorPropertiesServiceArgoNeuT, detinfo::DetectorPropertiesService, SHARED)
 #endif // UTIL_DETECTORPROPERTIESSERVICEARGONEUT_H

@@ -29,5 +29,5 @@ namespace detinfo{
 
     }; // class DetectorPropertiesService
 } //namespace detinfo
-DECLARE_ART_SERVICE_INTERFACE(detinfo::DetectorPropertiesService, LEGACY)
+DECLARE_ART_SERVICE_INTERFACE(detinfo::DetectorPropertiesService, SHARED)
 #endif // DETECTORPROPERTIESSERVICE_H
