@@ -99,5 +99,5 @@ namespace detinfo {
 } //namespace detinfo
 DECLARE_ART_SERVICE_INTERFACE_IMPL(detinfo::DetectorPropertiesServiceStandard,
                                    detinfo::DetectorPropertiesService,
-                                   LEGACY)
+                                   SHARED)
 #endif // DETECTORPROPERTIESSERVICESTANDARD_H
