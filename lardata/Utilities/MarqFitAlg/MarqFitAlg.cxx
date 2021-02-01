@@ -1,4 +1,4 @@
-#include "lardata/Utilities/MarqFitAlg.h"
+#include "lardata/Utilities/MarqFitAlg/MarqFitAlg.h"
 #include "messagefacility/MessageLogger/MessageLogger.h"
 #include <limits>
 
