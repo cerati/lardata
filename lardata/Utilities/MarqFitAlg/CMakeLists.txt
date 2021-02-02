@@ -1,3 +1,12 @@
+set(SPACK_CC /packages/intel/20/compilers_and_libraries_2020/linux/bin/intel64/icc)
+set(SPACK_COMPILER_IMPLICIT_RPATHS /packages/intel/20/compilers_and_libraries_2020.1.217/linux/compiler/lib/intel64_lin)
+set(SPACK_COMPILER_SPEC intel@19.1.1.217)
+set(SPACK_CPPFLAGS '-Wno-deprecated -Wno-deprecated-declarations -xCORE-AVX512')
+set(SPACK_CXX /packages/intel/20/compilers_and_libraries_2020/linux/bin/intel64/icpc)
+set(SPACK_ENV_PATH /home/users/sberkman/spack_dec17/spack/rollout2/NULL/lib/spack/env:/home/users/sberkman/spack_dec17/spack/rollout2/NULL/lib/spack/env/case-insensitive:/home/users/sberkman/spack_dec17/spack/rollout2/NULL/lib/spack/env/intel)
+set(SPACK_F77 /packages/intel/20/compilers_and_libraries_2020/linux/bin/intel64/ifort)
+set(SPACK_FC /packages/intel/20/compilers_and_libraries_2020/linux/bin/intel64/ifort)
+
 include(FindOpenMP)
 if(OPENMP_FOUND)
   # even if OpenMP is found on a SLF6 machine, it cannot be used.
