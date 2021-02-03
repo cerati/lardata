@@ -6,6 +6,10 @@ set(ENV{SPACK_CXX} /packages/intel/20/compilers_and_libraries_2020/linux/bin/int
 set(ENV{SPACK_ENV_PATH} /home/users/sberkman/spack_dec17/spack/rollout2/NULL/lib/spack/env:/home/users/sberkman/spack_dec17/spack/rollout2/NULL/lib/spack/env/case-insensitive:/home/users/sberkman/spack_dec17/spack/rollout2/NULL/lib/spack/env/intel)
 set(ENV{SPACK_F77} /packages/intel/20/compilers_and_libraries_2020/linux/bin/intel64/ifort)
 set(ENV{SPACK_FC} /packages/intel/20/compilers_and_libraries_2020/linux/bin/intel64/ifort)
+set(ENV{CC} /home/users/sberkman/spack_dec17/spack/rollout2/NULL/lib/spack/env/intel/icc)
+set(ENV{CXX} /home/users/sberkman/spack_dec17/spack/rollout2/NULL/lib/spack/env/intel/icc)
+set(ENV{FC} /home/users/sberkman/spack_dec17/spack/rollout2/NULL/lib/spack/env/intel/ifort)
+set(ENV{F77} /home/users/sberkman/spack_dec17/spack/rollout2/NULL/lib/spack/env/intel/ifort)
 
 include(FindOpenMP)
 if(OPENMP_FOUND)
