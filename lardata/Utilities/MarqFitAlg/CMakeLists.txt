@@ -33,10 +33,11 @@ endif(OPENMP_FOUND)
 
 add_custom_target(testMarqFit)
 
-add_dependencies(gshf_MarqFitAlg testMarqFit)
+
 
 add_library (gshf_MarqFitAlg STATIC MarqFitAlg.cxx)
 set_property(TARGET gshf_MarqFitAlg PROPERTY POSITION_INDEPENDENT_CODE ON)
+add_dependencies(gshf_MarqFitAlg testMarqFit)
 
 install_headers()
 install_fhicl()
