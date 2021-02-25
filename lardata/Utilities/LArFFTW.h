@@ -11,7 +11,7 @@
 
 #include "messagefacility/MessageLogger/MessageLogger.h"
 #include "cetlib_except/coded_exception.h"
-#include "larvecutils/larvecutils/MarqFitAlg/MarqFitAlg.h"
+#include "larvecutils/MarqFitAlg/MarqFitAlg.h"
 
 namespace util {
 
